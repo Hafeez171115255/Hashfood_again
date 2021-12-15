@@ -1,0 +1,135 @@
+.see-more, .product-name {
+  color: #00b5b5 !important;
+}
+
+.search-item-area{
+  display: none;
+}
+
+.show {
+  display: block;
+  transition: 0.1s ease-in-out;
+}
+
+.search-btn {
+  color: white !important;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+table tr {
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-disabled {
+  cursor: not-allowed;
+}
+
+.loader_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  height: 93%;
+}
+
+
+
+.text-limit {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.image {
+  /* min-height: 215px !important; */
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.image-small {
+  /* width: 100px;
+  height: 100px; */
+  overflow: hidden;
+  padding-left: 5px;
+  position: relative;
+}
+.image-small img {
+  /* height: 85px; */
+  /* width: 100px; */
+  object-fit: cover;
+}
+
+/* Flip-Countdown */
+.flip-clock {
+  text-align: unset !important;
+}
+.flip-card {
+  font-size: 30px !important;
+}
+.flip-clock__piece {
+  text-align: center !important;
+}
+.flip-card__top[data-v-8f91b0b6],
+.flip-card__bottom[data-v-8f91b0b6],
+.flip-card__back-bottom[data-v-8f91b0b6],
+.flip-card__back[data-v-8f91b0b6]::before,
+.flip-card__back[data-v-8f91b0b6]::after {
+  color: #00b5b5 !important;
+}
+/* Flip-Countdown Ends */
+
+
+/* hooper  */
+.hooper {
+  height: 100% !important;
+}
+
+.hooper-prev:hover,
+.hooper-next:hover {
+  opacity: 1;
+}
+/* hooper Ends */
+
+.ivu-rate{
+  font-size: 18px;
+}
+
+
+.color-primary{
+  color: #00b5b5 !important;
+}
+
+
+.error-text{
+  color: red;
+}
+.error-border{
+  border: 1px solid red;
+  box-shadow: inset 0 0 6px 0px #ffe2e2 !important;
+}
+
