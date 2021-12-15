@@ -837,12 +837,10 @@ body {
 /* ------------- Hero two ----------- */
 
 .checkout {
-  margin-left: 100px;
-  margin-right: 50px;
+
 }
 .checkout--container {
-  display: flex;
-  gap: 30px;
+
 }
 .checkout--title {
   font-weight: bold;
@@ -1972,4 +1970,24 @@ specials. .specials--card {
   .heroP2--right p {
     font-size: 14px;
   }
+  .checkout--breadcrumb--item{
+    padding: 5px 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-Width: 0px) {
+  .checkout--breadcrumb--item {
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 6px 0px;
+    font-weight: 600;
+    font-size: 9px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+}
+.checkout--breadcrumb--item{
+  padding: 7px 4px;
+}
 }
